@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4191BD9412DEF84600CCEDB3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4191BD9312DEF84600CCEDB3 /* main.c */; };
+		4191BD9612DEF84600CCEDB3 /* structperson.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4191BD9512DEF84600CCEDB3 /* structperson.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4191BD8D12DEF84600CCEDB3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4191BD9612DEF84600CCEDB3 /* structperson.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4191BD8F12DEF84600CCEDB3 /* structperson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = structperson; sourceTree = BUILT_PRODUCTS_DIR; };
+		4191BD9312DEF84600CCEDB3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		4191BD9512DEF84600CCEDB3 /* structperson.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = structperson.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4191BD8C12DEF84600CCEDB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4191BD8412DEF84600CCEDB3 = {
+			isa = PBXGroup;
+			children = (
+				4191BD9212DEF84600CCEDB3 /* structperson */,
+				4191BD9012DEF84600CCEDB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4191BD9012DEF84600CCEDB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4191BD8F12DEF84600CCEDB3 /* structperson */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4191BD9212DEF84600CCEDB3 /* structperson */ = {
+			isa = PBXGroup;
+			children = (
+				4191BD9312DEF84600CCEDB3 /* main.c */,
+				4191BD9512DEF84600CCEDB3 /* structperson.1 */,
+			);
+			path = structperson;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4191BD8E12DEF84600CCEDB3 /* structperson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4191BD9912DEF84600CCEDB3 /* Build configuration list for PBXNativeTarget "structperson" */;
+			buildPhases = (
+				4191BD8B12DEF84600CCEDB3 /* Sources */,
+				4191BD8C12DEF84600CCEDB3 /* Frameworks */,
+				4191BD8D12DEF84600CCEDB3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = structperson;
+			productName = structperson;
+			productReference = 4191BD8F12DEF84600CCEDB3 /* structperson */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4191BD8612DEF84600CCEDB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4191BD8912DEF84600CCEDB3 /* Build configuration list for PBXProject "structperson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4191BD8412DEF84600CCEDB3;
+			productRefGroup = 4191BD9012DEF84600CCEDB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4191BD8E12DEF84600CCEDB3 /* structperson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4191BD8B12DEF84600CCEDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4191BD9412DEF84600CCEDB3 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4191BD9712DEF84600CCEDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4191BD9812DEF84600CCEDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4191BD9A12DEF84600CCEDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4191BD9B12DEF84600CCEDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4191BD8912DEF84600CCEDB3 /* Build configuration list for PBXProject "structperson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4191BD9712DEF84600CCEDB3 /* Debug */,
+				4191BD9812DEF84600CCEDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4191BD9912DEF84600CCEDB3 /* Build configuration list for PBXNativeTarget "structperson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4191BD9A12DEF84600CCEDB3 /* Debug */,
+				4191BD9B12DEF84600CCEDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4191BD8612DEF84600CCEDB3 /* Project object */;
+}
